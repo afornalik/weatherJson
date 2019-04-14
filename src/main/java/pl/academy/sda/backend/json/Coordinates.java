@@ -15,4 +15,12 @@ public class Coordinates {
         this.longitude = longitude;
         this.latitude = latitude;
     }
+
+    public Double getLongitude() {
+        return longitude;
+    }
+
+    public Double getLatitude() {
+        return latitude;
+    }
 }

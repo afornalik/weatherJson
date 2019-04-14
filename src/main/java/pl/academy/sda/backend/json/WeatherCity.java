@@ -19,6 +19,22 @@ public class WeatherCity {
         this.country = country;
         this.coordinates = coordinates;
     }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public Coordinates getCoordinates() {
+        return coordinates;
+    }
 }
 
 /*
